@@ -1,5 +1,6 @@
 import React from "react";
 import EducationCard from "./education-card";
+import { School } from "lucide-react";
 
 export default function Education() {
   return (
@@ -10,14 +11,18 @@ export default function Education() {
         <EducationCard
           title="Mount view"
           subTitle="Primary Education"
-          passedYear={2082}
+          passedYear={2074}
+          Icon={School}
+          iconColor="text-blue-500"
         />
         <hr />
 
         <EducationCard
           title="Mount view"
           subTitle="Secondary Education"
-          passedYear={2082}
+          passedYear={2077}
+          Icon={School}
+          iconColor="text-green-500"
         />
         <hr />
 
@@ -25,6 +30,8 @@ export default function Education() {
           title="AMC"
           subTitle="Bachelor in CSIT"
           passedYear={2082}
+          Icon={School}
+          iconColor="text-orange-500"
         />
         <hr />
       </div>

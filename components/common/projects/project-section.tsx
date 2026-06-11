@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./project-card";
+import { projectData } from "@/lib/project-data";
 
 const ProjectSection = () => {
   return (
@@ -15,10 +16,11 @@ const ProjectSection = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {
+          projectData.map((item) => (
+            <ProjectCard key={item.id} item={item} />
+          ))
+        }
       </div>
     </section>
   );

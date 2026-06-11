@@ -5,9 +5,10 @@ import { BorderBeam } from "../ui/border-beam";
 const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between gap-6 pt-16">
-      <div className="flex flex-col gap-4 order-2 md:order-1">
+      <div className="flex flex-col gap-2 md:gap-4 order-2 md:order-1">
         <h1 className="text-3xl md:text-4xl font-semibold lg:text-5xl dark:text-white">
-          Hi, I'm <TypingAnimation words={["Shishir Oli", "React Developer"]} loop />
+          {/* Hi, I'm <TypingAnimation words={["Shishir Oli", "React Developer"]} loop /> */}
+          Hi, I am Shishir
         </h1>
 
         <p className="text-md lg:text-lg text-gray-600 dark:text-gray-300">
@@ -22,7 +23,7 @@ const HeroSection = () => {
           src="/hero.jpeg"
           alt="Shishir Oli"
           fill
-          className="object-cover grayscale-40"
+          className="object-cover grayscale-20"
           priority
         />
         <BorderBeam

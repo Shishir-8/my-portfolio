@@ -12,7 +12,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className='max-w-3xl mx-auto px-6  space-y-16'>
+    <main className='max-w-3xl mx-auto px-6 space-y-8 md:space-y-16'>
       <HeroSection />
       <About />
       <Education />
@@ -20,7 +20,6 @@ export default function Home() {
       <SkillSection />
       <ProjectSection />
       <ContactSection />
-
     </main>
   )
 }
