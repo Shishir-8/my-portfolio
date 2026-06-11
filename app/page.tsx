@@ -1,5 +1,6 @@
 
 import About from '@/components/common/about'
+import ContactSection from '@/components/common/contact'
 import DockSection from '@/components/common/dock'
 import Dock from '@/components/common/dock'
 import Education from '@/components/common/education/education'
@@ -11,7 +12,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className='max-w-4xl mx-auto'>
+    <main className='max-w-4xl mx-auto space-y-16'>
       <HeroSection />
       <About />
       <Education />
@@ -19,6 +20,7 @@ export default function Home() {
       <SkillSection />
       <DockSection />
       <ProjectSection />
+      <ContactSection />
 
     </main>
   )

@@ -18,7 +18,7 @@ const EducationCard = ({
       <div className="flex items-center gap-2">
         <School className="text-green-500" />
         <div className="flex flex-col">
-          <h1 className="font-normal text-md">{title}</h1>
+          <h1 className="font-medium text-md">{title}</h1>
           <p className="text-muted-foreground text-xs">{subTitle}</p>
         </div>
       </div>

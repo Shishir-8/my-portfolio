@@ -3,7 +3,7 @@ import { TypingAnimation } from "../ui/typing-animation";
 
 const HeroSection = () => {
   return (
-    <section className="flex items-center justify-between gap-12 p-16">
+    <section className="flex items-center justify-between gap-12 px-16 pt-16">
       <div className="space-y-4">
         <h1 className="text-3xl md:text-4xl font-semibold lg:text-5xl dark:text-white">
           Hi, I'm <TypingAnimation words={["Shishir", "React Developer"]} loop />

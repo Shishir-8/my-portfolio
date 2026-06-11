@@ -3,10 +3,10 @@ import EducationCard from "./education-card";
 
 export default function Education() {
   return (
-    <section className="p-16">
+    <section className="px-16">
       <h1 className="text-xl font-semibold">Education</h1>
 
-      <div className="pt-8 flex flex-col gap-4">
+      <div className="pt-6 flex flex-col gap-4">
         <EducationCard
           title="Mount view"
           subTitle="Primary Education"
