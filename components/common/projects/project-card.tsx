@@ -5,7 +5,7 @@ import React from 'react'
 const ProjectCard = () => {
   return (
     <div className='max-w-md w-full shadow rounded-lg hover:-translate-y-1 duration-300'>
-        <div className='relative h-48 w-full overflow-hidden rounded-lg'>
+        <div className='relative aspect-video w-full overflow-hidden rounded-lg'>
             <Image
             src={"https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?q=80&w=2009&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
             alt='Project 1'

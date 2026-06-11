@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const ProjectSection = () => {
   return (
-    <section className="px-16">
+    <section className="">
       <div className="flex items-center mb-6">
         <div className="flex-1 h-px bg-gray-300"></div>
 
@@ -14,7 +14,7 @@ const ProjectSection = () => {
         <div className="flex-1 h-px bg-gray-200"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

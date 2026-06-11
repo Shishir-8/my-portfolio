@@ -12,13 +12,12 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className='max-w-4xl mx-auto space-y-16'>
+    <main className='max-w-3xl mx-auto px-6  space-y-16'>
       <HeroSection />
       <About />
       <Education />
       <WorkExperience />
       <SkillSection />
-      <DockSection />
       <ProjectSection />
       <ContactSection />
 

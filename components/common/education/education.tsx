@@ -3,7 +3,7 @@ import EducationCard from "./education-card";
 
 export default function Education() {
   return (
-    <section className="px-16">
+    <section className="">
       <h1 className="text-xl font-semibold">Education</h1>
 
       <div className="pt-6 flex flex-col gap-4">

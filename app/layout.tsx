@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import { Dock } from "@/components/ui/dock";
+import DockSection from "@/components/common/dock";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,6 +23,7 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         {children}
+        <DockSection />
       </body>
     </html>
   );

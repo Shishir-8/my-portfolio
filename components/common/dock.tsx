@@ -19,7 +19,8 @@ export default function DockSection() {
     { id: 5, link: "/", label: "Projects", icon: <FolderGit2 /> },
   ];
   return (
-    <div className="fixed z-50 bottom-4 left-1/2 -translate-x-1/2">
+   <>
+     <div className="fixed z-50 bottom-4 left-1/2 -translate-x-1/2">
       <TooltipProvider>
         <Dock iconSize={48} direction="middle">
           {navLinks.map((item) => (
@@ -40,5 +41,6 @@ export default function DockSection() {
         </Dock>
       </TooltipProvider>
     </div>
+   </>
   );
 }
