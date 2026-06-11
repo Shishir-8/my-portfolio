@@ -10,7 +10,7 @@ const HeroSection = () => {
           Hi, I'm <TypingAnimation words={["Shishir Oli", "React Developer"]} loop />
         </h1>
 
-        <p className="text-md lg:text-lg text-gray-600">
+        <p className="text-md lg:text-lg text-gray-600 dark:text-gray-300">
           I build modern and responsive web applications with React and
           Next.js, turning ideas into clean, interactive, and user-friendly
           experiences.

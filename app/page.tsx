@@ -1,8 +1,8 @@
 
 import About from '@/components/common/about'
 import ContactSection from '@/components/common/contact'
-import DockSection from '@/components/common/dock'
-import Dock from '@/components/common/dock'
+import DockSection from '@/components/common/dock-section'
+import Dock from '@/components/common/dock-section'
 import Education from '@/components/common/education/education'
 import HeroSection from '@/components/common/hero-section'
 import ProjectSection from '@/components/common/projects/project-section'

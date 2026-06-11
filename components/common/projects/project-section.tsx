@@ -3,7 +3,7 @@ import ProjectCard from "./project-card";
 
 const ProjectSection = () => {
   return (
-    <section className="">
+    <section id="projects" className="">
       <div className="flex items-center mb-6">
         <div className="flex-1 h-px bg-gray-300"></div>
 

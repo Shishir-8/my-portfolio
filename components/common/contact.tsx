@@ -12,7 +12,7 @@ export default function ContactSection() {
 
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight">
-              Let's Work Together
+              Get in Touch
             </h2>
 
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
@@ -27,7 +27,7 @@ export default function ContactSection() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=srish821@gmail.com"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-black text-white font-medium hover:opacity-90 transition shadow-sm"
+              className="inline-flex items-center gap-2 px-6 py-2 rounded-xl bg-black text-white font-medium hover:opacity-90 transition shadow-sm"
             >
               <FaEnvelope className="text-base" />
               Email Me
@@ -38,7 +38,7 @@ export default function ContactSection() {
               href="https://wa.me/9779806247212"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-green-600 text-white font-medium hover:opacity-90 transition shadow-sm"
+              className="inline-flex items-center gap-2 px-6 py-2 rounded-xl bg-green-600 text-white font-medium hover:opacity-90 transition shadow-sm"
             >
               <FaPhone className="text-base" />
               WhatsApp

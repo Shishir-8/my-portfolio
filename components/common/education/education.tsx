@@ -4,7 +4,7 @@ import EducationCard from "./education-card";
 export default function Education() {
   return (
     <section className="">
-      <h1 className="text-xl font-semibold">Education</h1>
+      <h1 className="text-xl font-semibold dark:text-white">Education</h1>
 
       <div className="pt-6 flex flex-col gap-4">
         <EducationCard
