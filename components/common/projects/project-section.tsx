@@ -7,7 +7,7 @@ const ProjectSection = () => {
       <div className="flex items-center mb-6">
         <div className="flex-1 h-px bg-gray-300"></div>
 
-        <h1 className="bg-black text-white font-medium py-1.5 px-4 rounded-md">
+        <h1 className="bg-black text-white font-medium text-sm py-1 px-4 rounded-md">
           My Projects
         </h1>
 

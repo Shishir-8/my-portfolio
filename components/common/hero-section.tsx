@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { TypingAnimation } from "../ui/typing-animation";
+import { BorderBeam } from "../ui/border-beam";
 
 const HeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between gap-6 pt-16">
       <div className="flex flex-col gap-4 order-2 md:order-1">
         <h1 className="text-3xl md:text-4xl font-semibold lg:text-5xl dark:text-white">
-          Hi, I'm <TypingAnimation words={["Shishir", "React Developer"]} loop />
+          Hi, I'm <TypingAnimation words={["Shishir Oli", "React Developer"]} loop />
         </h1>
 
         <p className="text-md lg:text-lg text-gray-600">
@@ -24,6 +25,19 @@ const HeroSection = () => {
           className="object-cover grayscale-40"
           priority
         />
+        <BorderBeam
+        duration={6}
+        size={100}
+        borderWidth={3}
+        className="from-transparent via-red-500 to-transparent"
+      />
+      <BorderBeam
+        duration={6}
+        delay={3}
+        size={100}
+        borderWidth={3}
+        className="from-transparent via-green-500 to-transparent"
+      />
       </div>
     </section>
   );
