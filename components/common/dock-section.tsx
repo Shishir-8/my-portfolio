@@ -12,6 +12,7 @@ import {
 import Link from "next/link";
 import { AnimatedThemeToggler } from "../ui/animated-theme-toggler";
 import { Separator } from "../ui/separator";
+import { useTheme } from "next-themes";
 
 export default function DockSection() {
   const navLinks = [
@@ -46,6 +47,9 @@ export default function DockSection() {
       external: false,
     },
   ];
+
+  const {theme, setTheme} = useTheme()
+
   return (
     <>
       <div className="fixed z-50 bottom-6 left-1/2 -translate-x-1/2">
@@ -71,13 +75,19 @@ export default function DockSection() {
                     <p>{item.label}</p>
                   </TooltipContent>
                 </Tooltip>
-               
               </DockIcon>
-              
             ))}
             <Separator orientation="vertical" />
+
             <DockIcon className="border border-gray-200">
-              <AnimatedThemeToggler />
+              <div className="flex h-full w-full items-center justify-center">
+                <AnimatedThemeToggler
+                 variant="circle" 
+                 fromCenter={true}
+                  onClick={() => {
+                    setTheme(theme === "dark" ? "light": "dark")
+                  }} />
+              </div>
             </DockIcon>
           </Dock>
         </TooltipProvider>

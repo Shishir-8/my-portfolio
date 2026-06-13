@@ -23,7 +23,7 @@ export interface DockProps extends VariantProps<typeof dockVariants> {
   children: React.ReactNode
 }
 
-const DEFAULT_SIZE = 40
+const DEFAULT_SIZE = 42
 const DEFAULT_MAGNIFICATION = 50
 const DEFAULT_DISTANCE = 40
 const DEFAULT_DISABLEMAGNIFICATION = false

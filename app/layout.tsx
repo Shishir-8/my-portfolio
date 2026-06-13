@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import { Dock } from "@/components/ui/dock";
 import DockSection from "@/components/common/dock-section";
+import ThemeProvider from "@/providers/theme-provider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,12 +21,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.className} h-full antialiased`}>
+    <html suppressHydrationWarning lang="en" className={`${poppins.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-        {children}
-        <DockSection />
+        <ThemeProvider>
+          {children}
+          <DockSection />
+        </ThemeProvider>
       </body>
     </html>
   );
 }
-
