@@ -7,5 +7,14 @@ export const projectData = [
         imageUrl: "/concrete.png",
         link: "https://concreteconnections.com.au/",
         description: "Concrete Connections is dedicated to providing reliable platform for builders, concrete suppliers, and pumpers to connect and collaborate. We strive to simplify the process of sourcing and delivering concrete, ensuring timely and efficient service for all our users."
+    },
+
+
+       {
+        id: 2,
+        title: "Site IQ Pro",
+        imageUrl: "/siteiq.png",
+        link: "https://siteiqpro.com.au/",
+        description: "SiteIQPro is dedicated to providing reliable payroll management solutions for businesses of all sizes. We streamline your HR processes with our comprehensive platform."
     }
 ]

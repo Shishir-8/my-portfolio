@@ -12,9 +12,8 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-md lg:text-lg text-gray-600 dark:text-gray-300">
-          I build modern and responsive web applications with React and
-          Next.js, turning ideas into clean, interactive, and user-friendly
-          experiences.
+          I build modern and responsive web applications with React and Next.js,
+          turning ideas into clean, interactive, and user-friendly experiences.
         </p>
       </div>
 
@@ -27,18 +26,18 @@ const HeroSection = () => {
           priority
         />
         <BorderBeam
-        duration={6}
-        size={100}
-        borderWidth={3}
-        className="from-transparent via-red-500 to-transparent"
-      />
-      <BorderBeam
-        duration={6}
-        delay={3}
-        size={100}
-        borderWidth={3}
-        className="from-transparent via-green-500 to-transparent"
-      />
+          duration={6}
+          size={100}
+          borderWidth={3}
+          className="from-transparent via-red-500 to-transparent"
+        />
+        <BorderBeam
+          duration={6}
+          delay={3}
+          size={100}
+          borderWidth={3}
+          className="from-transparent via-green-500 to-transparent"
+        />
       </div>
     </section>
   );
