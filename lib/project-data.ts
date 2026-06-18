@@ -16,5 +16,12 @@ export const projectData = [
         imageUrl: "/siteiq.png",
         link: "https://siteiqpro.com.au/",
         description: "SiteIQPro is dedicated to providing reliable payroll management solutions for businesses of all sizes. We streamline your HR processes with our comprehensive platform."
+    },
+    {
+        id: 3,
+        title: "KuraaKani",
+        imageUrl : "/kuraakani.png",
+        link: "https://kuraakani.netlify.app",
+        description: "KuraaKani is a real-time chat app built with React and Firebase for seamless one-to-one messaging."
     }
 ]
