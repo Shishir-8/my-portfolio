@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceCard from "./work-card";
-import { experiences } from "../../../lib/work-mock-data";
+import { experiences } from "../../../lib/work-data";
 
 
 const WorkExperience = () => {

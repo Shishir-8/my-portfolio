@@ -1,7 +1,7 @@
 export const experiences = [
   {
     company: "Hunchha Digital",
-    duration: "6 Months",
+    duration: "8 Months",
     description:
       "Worked as a React/Next.js Developer, building responsive and production-ready web applications using React.js and Next.js.",
     contributions: [
