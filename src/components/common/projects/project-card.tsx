@@ -41,7 +41,7 @@ const ProjectCard = ({ item }: ProjectCardProps) => {
           rel='noopener noreferrer'
           className='inline-flex items-center gap-2 text-sm font-medium text-green-500 hover:text-green-600 transition-colors duration-300 group'
         >
-          View Project Demo
+          Website Link
           <ArrowRight className='w-4 h-4 transition-transform duration-300 group-hover:translate-x-1' />
         </a>
       </div>

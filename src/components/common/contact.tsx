@@ -1,4 +1,5 @@
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FlickeringGrid } from "../ui/flickering-grid";
 
 export default function ContactSection() {
   return (
@@ -9,6 +10,19 @@ export default function ContactSection() {
             Contact Me
           </div>
 
+          <div className="absolute inset-0 top-0 left-0 right-0 h-45 overflow-hidden z-0 rounded-3xl">
+            <FlickeringGrid
+              className="h-full w-full"
+              squareSize={2}
+              gridGap={2}
+              style={{
+                maskImage: "linear-gradient(to bottom, black, transparent)",
+                WebkitMaskImage:
+                  "linear-gradient(to bottom, black, transparent)",
+              }}
+            />
+          </div>
+
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
               Get in Touch
@@ -16,8 +30,8 @@ export default function ContactSection() {
 
             <p className="mt-4 text-muted-foreground">
               I'm always excited to meet new people, collaborate on interesting
-              projects, and learn about fresh ideas. Don't hesitate to
-              reach out—let's start a conversation.
+              projects, and learn about fresh ideas. Don't hesitate to reach
+              out—let's start a conversation.
             </p>
           </div>
 

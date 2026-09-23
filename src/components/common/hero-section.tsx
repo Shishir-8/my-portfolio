@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { TypingAnimation } from "../ui/typing-animation";
 import { BorderBeam } from "../ui/border-beam";
 
 const HeroSection = () => {
@@ -19,7 +18,7 @@ const HeroSection = () => {
 
       <div className="relative h-40 w-40 md:h-60 md:w-60 overflow-hidden rounded-full shrink-0 order-1 md:order-2">
         <Image
-          src="/hero.jpeg"
+          src="/hero.jpg"
           alt="Shishir Oli"
           fill
           className="object-cover grayscale-20"
