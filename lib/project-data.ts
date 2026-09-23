@@ -23,5 +23,13 @@ export const projectData = [
         imageUrl : "/kuraakani.png",
         link: "https://kuraakani.netlify.app",
         description: "KuraaKani is a real-time chat app built with React and Firebase for seamless one-to-one messaging."
+    },
+
+    {
+        id: 4,
+        title: "ब SERA",
+        link: "https://baserasolutions.com/",
+        imageUrl: "/basera.png",
+        description:"Basera is a comfort-focused brand creating simple, ergonomic products for work, travel, and home. Our cushions, back supports, and pillows help reduce strain, improve posture, and make everyday life more comfortable.",
     }
 ]

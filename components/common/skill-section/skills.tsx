@@ -12,6 +12,7 @@ const SkillSection = () => {
           <SkillCard title={"Typescript"} imageUrl='/Typescript.png'/>
           <SkillCard title={"Node.js"} imageUrl='/Node.js.png'/>
           <SkillCard title={"Python"} imageUrl='/Python.png'/>
+          <SkillCard title={"Django"} imageUrl='/Django.png' />
           <SkillCard title={"Django Rest Framework"} imageUrl='/Django.png'/>
         </div>
         

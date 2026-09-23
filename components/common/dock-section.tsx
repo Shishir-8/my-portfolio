@@ -16,52 +16,64 @@ import { navLinks } from "@/lib/navbar-data";
 export default function DockSection() {
   const { theme, setTheme } = useTheme();
 
-  return (
-    <>
-      <div className="fixed z-50 bottom-6 left-1/2 -translate-x-1/2">
-        <TooltipProvider>
-          <Dock direction="middle">
-            {navLinks.map((item) => {
-              const Icon = item.icon
-              return (
-                <DockIcon key={item.id} className="border border-gray-200">
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      {item.external ? (
-                        <a
-                          rel="noopener noreferrer"
-                          target="_blank"
-                          href={item.link}
-                        >
-                          <Icon />
-                        </a>
-                      ) : (
-                        <Link href={item.link}><Icon /></Link>
-                      )}
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p>{item.label}</p>
-                    </TooltipContent>
-                  </Tooltip>
-                </DockIcon>
-              );
-            })}
-            <Separator orientation="vertical" />
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
-            <DockIcon className="border border-gray-200">
-              <div className="flex h-full w-full items-center justify-center transition duration-300">
-                <AnimatedThemeToggler
-                  variant="circle"
-                  fromCenter={true}
-                  onClick={() => {
-                    setTheme(theme === "dark" ? "light" : "dark");
-                  }}
-                />
-              </div>
-            </DockIcon>
-          </Dock>
-        </TooltipProvider>
-      </div>
-    </>
+  return (
+    <div className="fixed bottom-6 left-1/2 z-50 -translate-x-1/2">
+      <TooltipProvider>
+        <Dock direction="middle">
+          {navLinks.map((item) => {
+            const Icon = item.icon;
+
+            return (
+              <DockIcon
+                key={item.id}
+                className="border border-gray-200"
+              >
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    {item.external ? (
+                      <a
+                        href={item.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex h-full w-full items-center justify-center"
+                      >
+                        <Icon className="h-5 w-5" />
+                      </a>
+                    ) : (
+                      <Link
+                        href={item.link}
+                        className="flex h-full w-full items-center justify-center"
+                      >
+                        <Icon className="h-5 w-5" />
+                      </Link>
+                    )}
+                  </TooltipTrigger>
+
+                  <TooltipContent>
+                    <p>{item.label}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </DockIcon>
+            );
+          })}
+
+          <Separator orientation="vertical" />
+
+          <DockIcon className="border border-gray-200">
+            <div className="flex h-full w-full items-center justify-center">
+              <AnimatedThemeToggler
+                variant="circle"
+                fromCenter
+                onClick={toggleTheme}
+              />
+            </div>
+          </DockIcon>
+        </Dock>
+      </TooltipProvider>
+    </div>
   );
 }
