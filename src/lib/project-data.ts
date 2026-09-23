@@ -19,10 +19,10 @@ export const projectData = [
     },
     {
         id: 3,
-        title: "KuraaKani",
-        imageUrl : "/kuraakani.png",
-        link: "https://kuraakani.netlify.app",
-        description: "KuraaKani is a real-time chat app built with React and Firebase for seamless one-to-one messaging."
+        title: "Hajir System",
+        imageUrl : "/hajir.jpg",
+        link: "https://hajir-system.netlify.app",
+        description: "Hajir System is a simple attendance and payroll management system that helps businesses manage employees, track attendance, and calculate salaries."
     },
 
     {
