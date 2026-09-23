@@ -31,5 +31,13 @@ export const projectData = [
         link: "https://baserasolutions.com/",
         imageUrl: "/basera.jpg",
         description:"Basera is a comfort-focused brand creating simple, ergonomic products for work, travel, and home. Our cushions, back supports, and pillows help reduce strain, improve posture, and make everyday life more comfortable.",
+    },
+
+    {
+        id: 5,
+        title: "Gurkha Warrior",
+        link: "https://www.gurkhawarrior.com.np/",
+        imageUrl: "/gurkha.jpg",
+        description: "Gurkha Warrior is an online esports tournament platform designed for games such as PUBG Mobile. The platform allows players and teams to discover tournaments, register for competitions, manage their teams, and participate in organized matches."
     }
 ]
