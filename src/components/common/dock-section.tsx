@@ -18,7 +18,7 @@ export default function DockSection() {
       <TooltipProvider>
         <Dock
           direction="middle"
-          className="pointer-events-auto relative mx-auto h-14 w-fit gap-2 border border-border bg-card/90 p-2 shadow-[0_0_10px_3px] shadow-primary/5 backdrop-blur-3xl"
+          className="pointer-events-auto relative mx-auto h-16 w-fit gap-3 border border-border bg-card/90 p-2 shadow-[0_0_10px_3px] shadow-primary/5 backdrop-blur-3xl"
         >
           {navLinks.map((item) => {
             const Icon = item.icon;
@@ -34,7 +34,7 @@ export default function DockSection() {
                       className="flex h-full w-full items-center justify-center"
                     >
                       <DockIcon className="rounded-3xl border border-border bg-background text-muted-foreground transition-colors hover:bg-muted hover:text-foreground">
-                        <Icon className="h-5 w-5" />
+                        <Icon className="h-6 w-6" />
                       </DockIcon>
                     </a>
                   ) : (
@@ -43,7 +43,7 @@ export default function DockSection() {
                       className="flex h-full w-full items-center justify-center"
                     >
                       <DockIcon className="rounded-3xl border border-border bg-background text-muted-foreground transition-colors hover:bg-muted hover:text-foreground">
-                        <Icon className="h-5 w-5" />
+                        <Icon className="h-6 w-6" />
                       </DockIcon>
                     </Link>
                   )}

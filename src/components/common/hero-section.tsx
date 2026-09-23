@@ -10,7 +10,7 @@ const HeroSection = () => {
           Hi, I am Shishir
         </h1>
 
-        <p className="text-md lg:text-lg text-gray-600 dark:text-gray-300">
+        <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance">
           I build modern and responsive web applications with React and Next.js,
           turning ideas into clean, interactive, and user-friendly experiences.
         </p>
