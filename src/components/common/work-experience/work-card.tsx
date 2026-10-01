@@ -1,17 +1,18 @@
 import React from "react";
 
-
 type CardProps = {
-    company: string;
-    duration: string;
-    description: string;
-    contributions: string[]
-}
+  company: string;
+  position?: string;
+  duration: string;
+  description: string;
+  contributions: string[];
+};
 
 const ExperienceCard = ({
   company,
   duration,
   description,
+  position,
   contributions,
 }: CardProps) => {
   return (
@@ -21,11 +22,12 @@ const ExperienceCard = ({
 
       <div className="flex flex-col gap-2">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-          <h2 className="text-lg font-semibold">{company}</h2>
+          <div>
+            <h2 className="text-lg font-semibold">{position}</h2>
+            <p className="text-sm text-muted-foreground italic">{company}</p>
+          </div>
 
-          <span className="text-sm text-muted-foreground">
-            {duration}
-          </span>
+          <span className="text-sm text-muted-foreground">{duration}</span>
         </div>
 
         <p className="text-sm text-muted-foreground leading-relaxed">

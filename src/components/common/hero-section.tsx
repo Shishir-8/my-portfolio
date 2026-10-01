@@ -10,9 +10,18 @@ const HeroSection = () => {
           Hi, I am Shishir
         </h1>
 
-        <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance">
-          I build modern and responsive web applications with React and Next.js,
-          turning ideas into clean, interactive, and user-friendly experiences.
+        <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance max-w-2xl">
+          Frontend Developer specializing in{" "}
+          <strong className="font-medium text-foreground">
+            React & Next.js
+          </strong>
+          , building responsive, performance-driven web applications. Expanding
+          capabilities into
+          <strong className="font-medium text-foreground">
+            {" "}
+            Django & Full-Stack Development
+          </strong>{" "}
+          to build end-to-end web products.
         </p>
       </div>
 

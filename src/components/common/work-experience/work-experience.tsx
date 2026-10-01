@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceCard from "./work-card";
 import { experiences } from "@/src/lib/work-data";
 
