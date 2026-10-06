@@ -11,4 +11,17 @@ export const experiences = [
       "Optimized cross-browser compatibility and mobile responsiveness across core client projects.",
     ],
   },
+  {
+    company: "Karnovation Inc",
+    position: "Frontend Developer Intern",
+    duration: "3 Months",
+    description:
+      "Worked as a Frontend Developer Intern, gaining hands-on experience in building responsive web interfaces and working with modern frontend development practices.",
+    contributions: [
+      "Developed responsive and reusable user interface components using React.js.",
+      "Integrated frontend interfaces with REST APIs and handled dynamic data across application features.",
+      "Worked with the development team to fix UI issues, improve responsiveness, and maintain consistent design across different devices.",
+    ],
+  },
 ];
+
