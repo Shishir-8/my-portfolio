@@ -39,5 +39,12 @@ export const projectData = [
         link: "https://www.gurkhawarrior.com.np/",
         imageUrl: "/gurkha.jpg",
         description: "Gurkha Warrior is an online esports tournament platform designed for games such as PUBG Mobile. The platform allows players and teams to discover tournaments, register for competitions, manage their teams, and participate in organized matches."
+    },
+    {
+        id: 6,
+        title: "Blogify",
+        link: "https://shishir.pythonanywhere.com/",
+        imageUrl: "/blogify.png",
+        description: "Blogify is a blog application made using pure django with dashboards for different users."
     }
 ]
