@@ -20,9 +20,9 @@ export const projectData = [
     {
         id: 3,
         title: "Hajir System",
-        imageUrl : "/hajir.jpg",
-        link: "https://hajir-system.netlify.app",
-        description: "Hajir System is a simple attendance and payroll management system that helps businesses manage employees, track attendance, and calculate salaries."
+        imageUrl : "/hajir-system.png",
+        link: "https://hajir-system-frontend.vercel.app/",
+        description: "Hajir System is a single tenant Saas product for attendance and payroll management system that helps businesses manage employees, track attendance, and calculate salaries."
     },
 
     {
@@ -33,13 +33,6 @@ export const projectData = [
         description:"Basera is a comfort-focused brand creating simple, ergonomic products for work, travel, and home. Our cushions, back supports, and pillows help reduce strain, improve posture, and make everyday life more comfortable.",
     },
 
-    {
-        id: 5,
-        title: "Gurkha Warrior",
-        link: "https://www.gurkhawarrior.com.np/",
-        imageUrl: "/gurkha.jpg",
-        description: "Gurkha Warrior is an online esports tournament platform designed for games such as PUBG Mobile. The platform allows players and teams to discover tournaments, register for competitions, manage their teams, and participate in organized matches."
-    },
     {
         id: 6,
         title: "Blogify",
